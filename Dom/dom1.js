@@ -1,4 +1,4 @@
-createElement();
+// createElement();
 
 const btn = document.  createElement ("button");
 btn .textContext = "Click here";
@@ -10,34 +10,34 @@ division.appendChild(btn);
 
 //document.querySelector('h2').remove();
 
-const p = document.querySelector('p');
-p.addEventListener("click",function()
-{
-    clickPara();
-});
+// const p = document.querySelector('p');
+// p.addEventListener("click",function()
+// {
+//     clickPara();
+// });
 
-// Event Listener on Para 
-;
+// // Event Listener on Para 
+// ;
 
-const p = document.querySelector('p')
-p.addEventListener('mouseover',function(){
-    p.style.backgroundColor = 'yellow'
-})
-p.addEventListener('mouseup',function(){
-    p.style.backgroundColor ='red'
-})
+// const p = document.querySelector('p')
+// p.addEventListener('mouseover',function(){
+//     p.style.backgroundColor = 'yellow'
+// })
+// p.addEventListener('mouseup',function(){
+//     p.style.backgroundColor ='red'
+// })
 
 
-document.body.addEventListener(
-    'keydown'
-    (event) => {
-        console.log ('keypressed');
-        console.log(event.keyCode);
+// document.body.addEventListener(
+//     'keydown'
+//     (event) => {
+//         console.log ('keypressed');
+//         console.log(event.keyCode);
 
-    }
+//     }
 
-)
-function clickPara() {
+// )
+// function clickPara() {
 
-    console.log("para clicked ")
-}
+//     console.log("para clicked ")
+// }
